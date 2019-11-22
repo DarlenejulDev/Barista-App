@@ -1,0 +1,16 @@
+body{
+font-family: 'Baskervville', serif;
+background: url(/img/splash.jpeg) no-repeat fixed center center;
+background-size: cover;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #c3dde1;
+    border-color: #c3dde1;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

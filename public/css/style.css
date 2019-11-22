@@ -1,0 +1,33 @@
+.unstyled li {
+    list-style: none;
+}
+body{
+font-family: 'Baskervville', serif;
+background: url(/img/cashierpg.jpeg) no-repeat fixed center center;
+background-size: cover;
+}
+h2{
+  color: #cfbeae;
+font-size: 40px;
+font-weight: bold;
+margin-left: 38%;
+}
+label{
+  color:#6b2f21;
+  font-size: 42px;
+}
+button{
+  background: #c3dde1;
+  border: thick;
+  border-style: groove;
+  font-size: 36px;
+  color: #2d0a08;
+  margin-top: 9%;
+}
+#customerName, #customerOrder{
+      font-size: 30px;
+}
+a{
+  font-size: 30px;
+  margin-left: 0.5em;
+}

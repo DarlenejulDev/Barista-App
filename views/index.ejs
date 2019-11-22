@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cass Coffee</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="w3-container w3-tan">
+  <h2>Cass Coffee App</h2>
+
+  <div class="w3-card-4">
+    <div class="w3-container w3-teal">
+      <h2>Cass Coffee Cashier</h2>
+    </div>
+
+    <form class="w3-container"action="/submitOrder" method="post">
+      <p>
+      <input class="w3-input" id="customerName" type="text" name="customerName">
+      <label for="customerName">Customer Name: </label>
+      </p>
+      <p>
+      <textArea class="w3-input" type="text" id="customerOrder" name="customerOrder"></textArea>
+      <label for="customerOrder">Customer Order: </label></p>
+      <button type="submit">Submit Order</button>
+
+    </form>
+    <a href="/baristaLogin">Barista Account</a>
+
+   </div>
+  </div>
+ <script src="js/script.js"></script>
+
+</body>
+</html>
