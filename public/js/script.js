@@ -6,7 +6,7 @@ Array.from(complete).forEach(function(element) {
         const customerOrder = this.parentNode.childNodes[3].innerText
         const barista = document.querySelector("#baristaName").innerText
         console.log(customerName, customerOrder)
-        var utterThis = new SpeechSynthesisUtterance(`${customerName}, your order is ready! Your order of ${customerOrder} was it prepared by ${barista}`);
+        var utterThis = new SpeechSynthesisUtterance(`${customerName}, your order is ready! Your order of ${customerOrder} was prepared by ${barista}`);
         utterThis.voice = voices[50];
         utterThis.pitch = 0.9;
         utterThis.rate = 0.9;
