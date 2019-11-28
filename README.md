@@ -34,4 +34,4 @@ body-parser
 
 ## Usage
 1. run `node server.js`or `npm run start`
-2. Navigate to `localhost:8080`
+2. Navigate to`localhost:8080`
